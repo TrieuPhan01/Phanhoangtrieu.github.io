@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .width{
+    width: 80%;
+  }
+  body{
+    background: white;
+    padding: 0;
+    font-family: Arial;
+  }
+  header {
+    
+    display: flex;
+    align-items: center;
+  
+  }
+    header> div>h1{
+      font-size: 3rem;
+      font-family: 'Times New Roman';
+      color: #264081;
+    }
+    header> div>h2{
+        font-size: 1.8rem;
+        color:#fd6504;
+    }
+    .container{
+      max-width: 100%;
+      margin: 0  auto;
+      background: #fff;
+  
+    }
+    .search{
+      line-height: 45px; 
+      margin-top: auto;
+      margin-left: auto ;
+      padding-right: 120px;
+    }
+
+
+    
+.icon-bar {
+    width: 100%;
+    background-color: #f88d5f;
+    overflow: auto;
+    margin-top: 30px ;
+  }
+  
+  .icon-bar a {
+    margin: 0 auto;
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: rgb(223, 110, 35);
+  }
+  
+
+
+  .slide{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden !important;
+    margin-top: 10px;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .chuyen-slide{
+    width: 100%;
+    display: flex;
+    margin-left: 0%;
+   animation-delay: 1s;
+  }
+  
+  .chuyen-slide>img{
+    width: 100%;
+    height: 380px;
+  }
+  
+  .dieuhuong{
+    position: absolute;
+    color:white;
+    font-size: 60px;
+    top:45%;
+    left: 30px;
+  }
+  
+  .dieuhuong>i:last-child{
+    position: relative;
+    left: 1000px;
+  }
+
+
+
+  h2.subject {
+    padding-top: 5rem;
+    font-size: 40px;
+     text-align: center;
+     color: #ff0000;
+  }
+  
+  h2.subject::after {
+    content: "﹎﹎﹎﹎﹎﹎﹎⚙️﹎﹎﹎﹎﹎﹎﹎";
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .font-size_doc{
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  h3.subject{
+    padding-top: 2rem;
+    padding-bottom:1rem;
+    font-size: 30px;
+     text-align: left;
+     color: #0082c8;
+  }
+
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 33.33%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 40px;
+    height: 100%;
+  
+  }
+  .flex{
+    display: flex;
+    margin-bottom: 20px;
+  
+  }
+  .flex div{
+    margin-right: 20px;
+  }
+  
+  #Dai-han {background-color: rgb(248, 181, 93);}
+  #Ngan-han {background-color: rgb(125, 161, 125);}
+  #Chuyen-vien {background-color: rgb(133, 144, 245);}
+  .noi-dung-mon {
+    position: relative;
+    width:100%;
+    height: 100%;
+    bottom: 2px solid black ; 
+  }
+
+  .image {
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+   
+    height: auto;
+  }
+  
+  .Ten-mon {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+   
+  }
+  
+  .noi-dung-mon:hover .Ten-mon {
+    bottom: 0;
+    height: 100%;
+   
+   
+  }
+  
+  .ten-mon-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+
+
+footer.container{
+    background-color: #063170;
+    margin-top: 80px;
+  }
+  
+  .infors{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+   
+  }
+  .infor{
+    width: 50%;
+    margin: 10px;
+  }
+  .infor>p{
+    margin-top: 30px;
+    font-size: 20px;
+    word-spacing: 2px;
+    color: white;
+  }
+  
+  .if_left{
+    margin-left: 1px;
+  }
+  
+  .if_right{
+    margin-right: 1px;
+  }
+  .clfr{
+    color: #e07728 !important;
+    font-weight:bold;
+  }
+
