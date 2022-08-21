@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tin học Văn phòng</title>
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/@ciar4n/izmir@1.0.1/izmir.min.css" rel="stylesheet" />
+    <link href="css/tinhocvanphong.css" rel="stylesheet" />
+    <link
+    href="/mobile-css/tinhocvanphong-mobile.css"
+    rel="stylesheet"
+    media="screen and (max-width:950px)"
+   />
+    <link href="/images/ig.jpg" rel="shortcut icon" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/js/Tinhocvanphong.js"></script>
+</head>
+
+<body>
+    <header class="container">
+        <div class="tieude">
+            <div class="logo">
+                <div><img src="/images/logo1.png" height="160px" /></div>
+                <div>
+                    <h1>TRUNG TÂM TIN HỌC</h1>
+                    <h2 class="animate__animated animate__pulse animate__infinite infinite ">TIN HỌC VĂN PHÒNG</h2>
+                </div>
+            </div>
+            <div class="tienich">
+                <div class="icons">
+                    <div class="icon">
+                        <a href="./index.html" style="color:#8576cf ;">
+                            <ul>
+                                <li class="boder"><i class="fa-solid fa-house-crack"></i></li>
+                                <li>HOME</li>
+                            </ul>
+                        </a>
+                    </div>
+                    <div style="border: 2px solid#8576cf; height: 60px ; margin-top: 40px;background-color: #8576cf;">
+                    </div>
+                    <div class="icon">
+                        <a href="#" style="color:#37bddb;">
+                            <ul>
+                                <li class="boder"><i class="fa-solid fa-book-atlas"></i></li>
+                                <li>ĐĂNG KÍ</li>
+                            </ul>
+                        </a>
+                    </div>
+                    <div style="border: 2px solid#37bddb; height: 60px ; margin-top: 40px;background-color: #37bddb;">
+                    </div>
+                    <div class="icon">
+                        <a href="#" style="color:#8fc01e ;">
+                            <ul>
+                                <li class="boder"><i class="fa-solid fa-earth-americas"></i></li>
+                                <li>TIN TỨC</li>
+                            </ul>
+                        </a>
+                    </div>
+                    <div style="border: 2px solid#8fc01e; height: 60px ; margin-top: 40px;background-color: #8fc01e;">
+                    </div>
+                    <div class="icon">
+                        <a href="#" style="color:#fc6559 ;">
+                            <ul>
+                                <li class="boder"><i class="fa-solid fa-circle-question"></i></li>
+                                <li>CÂU HỎI</li>
+                            </ul>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div>
+              <a id="gototop" href="javastript:;">
+                  <i class="fa-solid fa-angles-up"></i>
+              </a>
+          </div>
+        </div>
+       
+    </header>
+    
+    <article>
+
+    </article >
+    <div class="slide">
+        <div class="dieuhuong">
+            <i class="fa-solid fa-angles-left" onclick="Val()"></i>
+            <i class="fa-solid fa-angles-right" onclick="Next()"></i>
+        </div>
+        <div class="chuyen-slide" id="chuyenslide">
+            <img src="/images/TH-VanPhong/278-DATA-Analysis-BI.png" alt="img1" class="imgslider1">
+            <img src="/images/TH-VanPhong/278-DATA-Analysis-Excel.png" alt="img2" class="imgslider2">
+            <img src="/images/TH-VanPhong/278-Machine-Learning-with-Azuel-ML.png" alt="img3" class="imgslider3">
+            <img src="/images/TH-VanPhong/278-Ung-dung-CNTT-luyen-thi.png" alt="img4" class="imgslider4">
+        </div>
+    </div>
+    <section>
+        <h3 class="subject">Thông tin ưu đãi</h4>
+            <p style="margin-left: 60px; font-size: 20px; margin-bottom: 40px;">Hiện nay <strong>Trung tâm tin học PHT</strong>  có một số<a style="color: red;"> Ưu đãi <i class="fa-solid fa-gift"></i></a> vào tháng 8 này. Các bạn Học sinh, Sinh viên có hứng thú hãy tham khảo các ưu đãi bên dưới!</p>
+        <div id="table">
+            <table class="center">
+                <tr>
+                    <th>Lớp ứng dụng CNTT cơ bản & Ứng dụng CNTT Nâng cao</th>
+                    <th>
+                        <ul class="version">
+                            <li>Ưu đãi 10% học phí cho HS, SV khi đăng kí các lớp ban ngày từ thứ 2- thứ 6. - Hạn áp
+                                dụng từ 24/08/2022.</li>
+                            <li>Ưu đãi 10% học phí cho học viên đã học tại Trung tâm tin học -Áp dụng từ ngày
+                                19/08/2022.</li>
+                            <li>Đậc biệt ưu đãi thêm 500.000đ khi đăng ký the0 nhóm từ 3 HV trở lên.</li>
+                        </ul>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Lớp luyện thi Ứng dụng CNTT Cơ bản</th>
+                    <th>
+                        <ul class="version">
+                            <li>Ưu đãi 50.000đ khi đăng ký theo nhóm từ 3 Học viên trở lên</li>
+                        </ul>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Các lớp MOS, chuyên đề Excel/Power (5 Tuần)</th>
+                    <th>
+                        <ul class="version">
+                            <li>Ưu đãi 20% cho học viên mới. </li>
+                            <li>Ưu đãi 25% học phí cho học viên đã học tại Trung tâm tin học.</li>
+                        </ul>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Data Analysis with Power BI/ Azure ML</th>
+                    <th>
+                        <ul class="version">
+                            <li>Ưu đãi đến 25% khi đóng trọn khóa học. </li>
+                        </ul>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Chuyên đề Machine Learning with Azure</th>
+                    <th>
+                        <ul class="version">
+                            <li>Ưu đãi 10% cho học viên đã học tại Trung tâm tin học PHT</li>
+                            <li>Giảm 100.000đ khi đăng kí online cho học viên mới.</li>
+                            <li>Đậc biệt ưu đãi thêm 500.000đ khi đăng ký theo nhóm từ 3 HV trở lên.</li>
+                        </ul>
+                    </th>
+                </tr>
+            </table>
+            <div style="margin: 20px 60px; font-size: 20px;">
+                <i>Lưu ý:</i>
+                <ul>
+                    <li><i>Để nhận ưu đãi, học viên vui lòng<b> Đăng kí Online</b> và <b>Hoàn tất học phí</b> trước ngày <a style="color: red;"><b>01/09/2022</b></a></i></li>
+                    <li><i>Học phí đã bao gồm Giáo trình, Lệ phí thi và lệ phí chứng chỉ</i></li>
+                </ul>
+               
+                
+            </div>
+        </div>
+        <div>
+            <h3 class="subject">Lịch khai giảng</h4>
+            <div class="slide-table">
+                <div id="s-title-1" class="s-title">Ứng dụng CNTT Cơ Bản</div>
+                <div id="s-content-1" class="s-content">
+                    <p>Môn Học: Ứng dụng CNTT Cơ Bản- 40 Tiết</p>
+                    <p>Học Phí: 1.500.000đ</p>
+
+                    <div class="row">
+                        <div class="column">
+                          <table>
+                            <tr class="column-title">
+                              <th>Lớp </th>
+                              <th>Ngày khai giảng</th>
+                              <th>Thời gian</th>
+                              <th>Địa điểm </th>
+                              <th>Đăng Ký </th>
+                            </tr>
+                            <tr>
+                              <td>A_1246O</td>
+                              <td>24/08/2022</td>
+                              <td>Thứ 2-4-6 (13:30-16:45)</td>
+                              <td>Online</td>
+                              <td><input type="button" value="Đăng Ký" class="dangky"/></td>
+                            </tr>
+                            <tr>
+                              <td>A_2246</td>
+                              <td>24/08/2022</td>
+                              <td>Thứ 2-4-6(18:00-21:15)</td>
+                              <td>01 Nguyễn Kiệm Gò Vấp</td>
+                              <td><input type="button" value="Đăng Ký"  class="dangky"/></td>
+                            </tr>
+                            <tr>
+                                <td>A_1357O</td>
+                                <td>25/08/2022</td>
+                                <td>Thứ 3-5-7 (13:30-16:45)</td>
+                                <td>Online</td>
+                                <td><input type="button" value="Đăng Ký"  class="dangky"/></td>
+                              </tr>
+                              <tr>
+                                <td>A_2357</td>
+                                <td>25/08/2022</td>
+                                <td>Thứ 3-5-7(18:00-21:15)</td>
+                                <td>01 Nguyễn Kiệm Gò Vấp</td>
+                                <td><input type="button" value="Đăng Ký"  class="dangky"/></td>
+                              </tr>
+                              <tr>
+                                <td>A_1AO</td>
+                                <td>24/08/2022</td>
+                                <td>Thứ 2,3,4,5,6,7(8:00-11:15)</td>
+                                <td>Online</td>
+                                <td><input type="button" value="Đăng Ký"  class="dangky"/></td>
+                              </tr>
+                              <tr>
+                                <td>A_2AT</td>
+                                <td>24/08/2022</td>
+                                <td>Thứ 2,3,4,5,6,7(13:30-16:45)</td>
+                                <td>01 Nguyễn Kiệm Gò Vấp</td>
+                                <td><input type="button" value="Đăng Ký"  class="dangky"/></td>
+                              </tr>
+                          </table>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="slide-table">
+                <div id="s-title-2" class="s-title">Ứng dụng CNTT Nâng Cao</div>
+                <div id="s-content-2" class="s-content">
+                    <p>Môn Học: Ứng dụng CNTT Nâng Cao- 50 Tiết</p>
+                    <p>Học Phí: 1.800.000đ</p>
+
+                    <div class="row">
+                        <div class="column">
+                          <table>
+                            <tr class="column-title">
+                              <th>Lớp </th>
+                              <th>Ngày khai giảng</th>
+                              <th>Thời gian</th>
+                              <th>Địa điểm </th>
+                              <th>Đăng Ký </th>
+                            </tr>
+                            <tr>
+                              <td>NC_1246O</td>
+                              <td>24/08/2022</td>
+                              <td>Thứ 2-4-6 (13:30-16:45)</td>
+                              <td>Online</td>
+                              <td><input type="button" value="Đăng Ký" class="dangky"/></td>
+                            </tr>
+                            <tr>
+                              <td>NC_2246</td>
+                              <td>24/08/2022</td>
+                              <td>Thứ 2-4-6(18:00-21:15)</td>
+                              <td>01 Nguyễn Kiệm Gò Vấp</td>
+                              <td><input type="button" value="Đăng Ký"  class="dangky"/></td>
+                            </tr>
+                            <tr>
+                                <td>NC_1357O</td>
+                                <td>25/08/2022</td>
+                                <td>Thứ 3-5-7 (13:30-16:45)</td>
+                                <td>Online</td>
+                                <td><input type="button" value="Đăng Ký"  class="dangky"/></td>
+                              </tr>
+                              <tr>
+                                <td>NC_2357</td>
+                                <td>25/08/2022</td>
+                                <td>Thứ 3-5-7(18:00-21:15)</td>
+                                <td>01 Nguyễn Kiệm Gò Vấp</td>
+                                <td><input type="button" value="Đăng Ký"  class="dangky"/></td>
+                              </tr>
+                              <tr>
+                          </table>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="slide-table">
+                <div id="s-title-3" class="s-title">DATA ANALYSIS WITH EXCEL&AZURE ML</div>
+                <div id="s-content-3" class="s-content">
+                    <p>DATA ANALYSIS WITH EXCEL&AZURE ML- 30 tiết</p>
+                    <p>Học Phí: <del>12.000.000đ</del></p>
+                    <p><a style="color: red;">Ưu đãi: </a>Khi <i>đăng ký online</i> và <i>hoàn tất học phí</i> trước ngày <i><b>25/08/2022</b></i></p>
+                    <p>Học viên <b>mới</b> : Học phí chỉ 9.000.000đ</p>
+                    <p>Học viên <b>đã học</b> tại TT: 8.000.000đ</p>
+
+                    <div class="row">
+                        <div class="column">
+                          <table>
+                            <tr class="column-title">
+                              <th>Lớp </th>
+                              <th>Ngày khai giảng</th>
+                              <th>Thời gian</th>
+                              <th>Địa điểm </th>
+                              <th>Đăng Ký </th>
+                            </tr>
+                            <tr>
+                              <td>DAWP_135</td>
+                              <td>25/08/2022</td>
+                              <td>Thứ 3-5 (18:00-21:00)</td>
+                              <td>01 Nguyễn Kiệm Gò Vấp</td>
+                              <td><input type="button" value="Đăng Ký" class="dangky"/></td>
+                            </tr>
+                            <tr>
+                                <td>DAWP_135_O</td>
+                                <td>25/08/2022</td>
+                                <td>Thứ 3-5(18:00-21:00)</td>
+                                <td>Online</td>
+                              <td><input type="button" value="Đăng Ký"  class="dangky"/></td>
+                            </tr>
+                            <tr>
+                                <td>DAWP_246</td>
+                                <td>26/08/2022</td>
+                                <td>Thứ 4-6 (18:00-21:00)</td>
+                                <td>01 Nguyễn Kiệm Gò Vấp</td>
+                                <td><input type="button" value="Đăng Ký"  class="dangky"/></td>
+                            </tr>
+                            <tr>
+                                <td>DAWP_246_O</td>
+                                <td>26/08/2022</td>
+                                <td>Thứ 4-6(18:00-21:00)</td>
+                                <td>Online</td>
+                                <td><input type="button" value="Đăng Ký"  class="dangky"/></td>
+                              </tr>
+                          </table>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="slide-table">
+                <div id="s-title-4" class="s-title">Luyện Thi Chứng Chỉ Ứng dụng CNTT Cơ Bản</div>
+                <div id="s-content-4" class="s-content">
+                    <p>Môn Học: Luyện Thi Chứng Chỉ Ứng dụng CNTT Cơ Bản- 18 Tiết</p>
+                    <p>Học Phí: 900.000đ</p>
+
+                    <div class="row">
+                        <div class="column">
+                          <table>
+                            <tr class="column-title">
+                              <th>Lớp </th>
+                              <th>Ngày khai giảng</th>
+                              <th>Thời gian</th>
+                              <th>Địa điểm </th>
+                              <th>Đăng Ký </th>
+                            </tr>
+                            <tr>
+                              <td>LT_1246_O</td>
+                              <td>24/08/2022</td>
+                              <td>Thứ 2-4-6 (13:30-16:45)</td>
+                              <td>Online</td>
+                              <td><input type="button" value="Đăng Ký" class="dangky"/></td>
+                            </tr>
+                            <tr>
+                              <td>LT_2246</td>
+                              <td>24/08/2022</td>
+                              <td>Thứ 2-4-6(18:00-21:15)</td>
+                              <td>01 Nguyễn Kiệm Gò Vấp</td>
+                              <td><input type="button" value="Đăng Ký"  class="dangky"/></td>
+                            </tr>
+                            <tr>
+                                <td>LT_1357_O</td>
+                                <td>25/08/2022</td>
+                                <td>Thứ 3-5-7 (13:30-16:45)</td>
+                                <td>Online</td>
+                                <td><input type="button" value="Đăng Ký"  class="dangky"/></td>
+                              </tr>
+                              <tr>
+                                <td>LT_2357</td>
+                                <td>25/08/2022</td>
+                                <td>Thứ 3-5-7(18:00-21:15)</td>
+                                <td>01 Nguyễn Kiệm Gò Vấp</td>
+                                <td><input type="button" value="Đăng Ký"  class="dangky"/></td>
+                              </tr>
+                          </table>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="slide-table">
+                <div id="s-title-5" class="s-title">Lớp Học MOD - EXCEL</div>
+                <div id="s-content-5" class="s-content">
+                    <p>Lớp Học MOD - EXCEL</p>
+                    <p>Học Phí: 2.300.000đ</p>
+
+                    <div class="row">
+                        <div class="column">
+                          <table>
+                            <tr class="column-title">
+                              <th>Lớp </th>
+                              <th>Ngày khai giảng</th>
+                              <th>Thời gian</th>
+                              <th>Địa điểm </th>
+                              <th>Đăng Ký </th>
+                            </tr>
+                            <tr>
+                              <td>MOSE_1246_O</td>
+                              <td>24/08/2022</td>
+                              <td>Thứ 2-4-6 (13:30-16:45)</td>
+                              <td>Online</td>
+                              <td><input type="button" value="Đăng Ký" class="dangky"/></td>
+                            </tr>
+                            <tr>
+                              <td>MOSE_2246</td>
+                              <td>24/08/2022</td>
+                              <td>Thứ 2-4-6(18:00-21:15)</td>
+                              <td>01 Nguyễn Kiệm Gò Vấp</td>
+                              <td><input type="button" value="Đăng Ký"  class="dangky"/></td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="slide-table">
+                <div id="s-title-6" class="s-title">Lớp Học MOD - WORD</div>
+                <div id="s-content-6" class="s-content">
+                    <p>Lớp Học MOD - WORD</p>
+                    <p>Học Phí: 2.300.000đ</p>
+
+                    <div class="row">
+                        <div class="column">
+                          <table>
+                            <tr class="column-title">
+                              <th>Lớp </th>
+                              <th>Ngày khai giảng</th>
+                              <th>Thời gian</th>
+                              <th>Địa điểm </th>
+                              <th>Đăng Ký </th>
+                            </tr>
+                            <tr>
+                              <td>MOSE_1246_O</td>
+                              <td>24/08/2022</td>
+                              <td>Thứ 2-4-6 (13:30-16:45)</td>
+                              <td>Online</td>
+                              <td><input type="button" value="Đăng Ký" class="dangky"/></td>
+                            </tr>
+                            <tr>
+                              <td>MOSE_2246</td>
+                              <td>24/08/2022</td>
+                              <td>Thứ 2-4-6(18:00-21:15)</td>
+                              <td>01 Nguyễn Kiệm Gò Vấp</td>
+                              <td><input type="button" value="Đăng Ký"  class="dangky"/></td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="slide-table">
+                <div id="s-title-7" class="s-title">MACHINE LEARNING WITH AZURE</div>
+                <div id="s-content-7" class="s-content">
+                    <p>Lớp Học: Machine Learning with Azure</p>
+                    <p>Học Phí: 4.500.000đ</p>
+
+                    <div class="row">
+                        <div class="column">
+                          <table>
+                            <tr class="column-title">
+                              <th>Lớp </th>
+                              <th>Ngày khai giảng</th>
+                              <th>Thời gian</th>
+                              <th>Địa điểm </th>
+                              <th>Đăng Ký </th>
+                            </tr>
+                            <tr>
+                              <td>AZML_178_O</td>
+                              <td>27/08/2022</td>
+                              <td>Thứ 7- Chủ nhật (7:00-9:00)</td>
+                              <td>Online</td>
+                              <td><input type="button" value="Đăng Ký" class="dangky"/></td>
+                            </tr>
+                            <tr>
+                              <td>AZML_2246</td>
+                              <td>27/08/2022</td>
+                              <td>Thứ 7- Chủ nhật (7:00-9:00)</td>
+                              <td>01 Nguyễn Kiệm Gò Vấp</td>
+                              <td><input type="button" value="Đăng Ký"  class="dangky"/></td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+   
+    <footer class="container">
+        <div class="infors">
+            <div class="infor if_left">
+                <p class="clfr">Trung tâm tin học PHT</p>
+                <p>Với hơn 10 năm thành lập và phát triển. Chúng tôi đã xây dựng được đội ngũ nòng cốt hơn 100 nhân sự
+                    chất lượng cao trong các lĩnh vực về Công nghệ thông tin. Trung tâm tin học PHT tự hào là đơn vị
+                    hàng đầu trong lĩnh vực tư vấn và đào tạo tin học, thiết kế phần mềm, thiết kế website, Quảng cáo -
+                    Marketing online. Hơn 5000+ khách hàng đã tin tưởng và sử dụng các dịch vụ của chúng tôi liên tục
+                    trong nhiều năm qua. Tin học Sao Việt hiện nay là đối tác đào tạo quan trọng của nhiều công ty và tổ
+                    chức giáo dục tại TP.HCM, Hà Nội, Đồng Nai, Bình Dương, và các tỉnh thành trên khắp cả nước.</p>
+                <p><a class="clfr">Khóa học:</a> Tin học văn phòng (Word, Excel, Máy Tính, PowerPoint), AutoCAD, Kế
+                    Toán, MOS, Đồ họa Photoshop - AI - Corel, SolidWorks, SketchUP, 3ds Max, Vray, Quảng cáo Google -
+                    FaceBook - SEO</p>
+                <p><a class="clfr">Điện thoại :</a> 09876543210</p>
+                <p>Email: <a href="mailto:Trungtamtinhocpht@gmail.com">Trungtamtinhocpht@gmail.com</a></p>
+            </div>
+            <div class="infor if_right">
+                <p class="clfr">Trung Tâm Tin Học PHT</p>
+                <p><a class="clfr">1. TP.HCM: </a>00 Trường Sơn, Phường 1 Quận 10 Hồ Chí Minh</p>
+                <p><a class="clfr">2. Tp.HCM: </a>00 Lê Trực, Phường 7, Q. Bình Thạnh, Tp.HCM </p>
+                <p><a class="clfr">3. TP.HCM: </a>00 Nguyễn Kiệm, Phường 3, Quận Gò Vấp , TP.HCM</p>
+                <p><a class="clfr">4. Quảng Ngãi:</a> 000 Quang Trung, Thành phố Quảng Ngãi</p>
+                <p><a class="clfr">............</a></p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+
+</html>

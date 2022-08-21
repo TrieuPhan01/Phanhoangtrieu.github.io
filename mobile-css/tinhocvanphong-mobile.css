@@ -1,0 +1,29 @@
+.logo h1{
+    font-size:2rem;
+    width: 500px;
+    
+  }
+  .logo h2{
+
+    font-size: 1.5rem;
+    margin: 10px;
+    text-align: left;
+    
+  }
+
+  .tieude{
+    width: 100%;
+    display: block;
+  }
+
+  .tienich{
+    width: auto;
+    display: flex;
+   margin-top: 120px;
+   margin-left: 60px;
+
+  }
+
+  .slide{
+    display: none !important;
+  }

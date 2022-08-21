@@ -1,0 +1,15 @@
+header>h1{
+    font-size:2rem;
+  }
+
+.slide{
+    display:none !important; 
+}
+
+div.khung img{
+    display:none !important; 
+}
+
+div.khung h2{
+    font-size: 8px;
+  }

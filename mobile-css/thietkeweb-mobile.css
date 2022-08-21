@@ -1,0 +1,11 @@
+header> div>h1{
+    font-size: 2rem;
+  }
+  header> div>h2{
+    font-size: 1.2rem;
+}
+
+
+.slide{
+   display: none !important;
+  }
